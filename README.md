@@ -1,4 +1,4 @@
-# agentic-base-image
+# agent-base-image
 
 Base container image for agentic workspaces. Provides the runtime foundation that workspace containers need to host autonomous coding agents.
 
@@ -19,7 +19,7 @@ Coding agents need a terminal multiplexer (`tmux`) for session management and a 
 ## Image
 
 ```
-quay.io/che-incubator/agentic-base-image:latest
+quay.io/che-incubator/agent-base-image:latest
 ```
 
 Multi-arch: `linux/amd64`, `linux/arm64`
@@ -27,7 +27,7 @@ Multi-arch: `linux/amd64`, `linux/arm64`
 ## Building Locally
 
 ```bash
-docker buildx build --platform linux/amd64,linux/arm64 -t agentic-base-image .
+docker buildx build --platform linux/amd64,linux/arm64 -t agent-base-image .
 ```
 
 ## License
